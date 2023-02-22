@@ -1,9 +1,9 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@vant/cli': ^5.0.0
-  sass: ^1.49.7
-  vue: ^3.0.0
+  '@vant/cli': ^5.1.0
+  sass: ^1.58.3
+  vue: ^3.2.47
 
 devDependencies:
   '@vant/cli': 5.1.0_sass@1.58.3+vue@3.2.47

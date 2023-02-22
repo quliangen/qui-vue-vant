@@ -31,9 +31,9 @@
     "vue": "^3.0.0"
   },
   "devDependencies": {
-    "@vant/cli": "^5.0.0",
-    "vue": "^3.0.0",
-    "sass": "^1.49.7"
+    "@vant/cli": "^5.1.0",
+    "sass": "^1.58.3",
+    "vue": "^3.2.47"
   },
   "eslintConfig": {
     "root": true,
