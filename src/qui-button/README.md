@@ -1,16 +1,16 @@
-# DemoButton 按钮
+# QuiButton 按钮
 
 ### 介绍
 
-DemoButton 是一个示例按钮组件
+QuiButton 是一个示例按钮组件
 
 ### 引入
 
 ```js
 import Vue from 'vue';
-import { DemoButton } from 'qui-vue-vant';
+import { QuiButton } from 'qui-vue-vant';
 
-Vue.use(DemoButton);
+Vue.use(QuiButton);
 ```
 
 ## 代码演示
@@ -18,7 +18,7 @@ Vue.use(DemoButton);
 ### 基础用法
 
 ```html
-<demo-button type="primary" />
+<qui-button type="primary" />
 ```
 
 ## API
