@@ -4,11 +4,11 @@
 
 ```bash
 # 通过 npm
-npm i qui-vue-vant
+npm i @qudong/qui-vue-vant
 
 # 通过 yarn
-yarn add qui-vue-vant
+yarn add @qudong/qui-vue-vant
 
 # 通过 pnpm
-pnpm add qui-vue-vant
+pnpm add @qudong/qui-vue-vant
 ```

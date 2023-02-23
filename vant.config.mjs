@@ -1,5 +1,5 @@
 export default {
-  name: 'qui-vue-vant',
+  name: '@qudong/qui-vue-vant',
   build: {
     css: {
       preprocessor: 'less',
@@ -9,7 +9,7 @@ export default {
     },
   },
   site: {
-    title: 'qui-vue-vant',
+    title: '@qudong/qui-vue-vant',
     logo: 'https://fastly.jsdelivr.net/npm/@vant/assets/logo.png',
     nav: [
       {

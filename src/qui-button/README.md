@@ -8,7 +8,7 @@ QuiButton 是一个示例按钮组件
 
 ```js
 import Vue from 'vue';
-import { QuiButton } from 'qui-vue-vant';
+import { QuiButton } from '@qudong/qui-vue-vant';
 
 Vue.use(QuiButton);
 ```
