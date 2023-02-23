@@ -1,6 +1,6 @@
 {
   "name": "@qudong/qui-vue-vant",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "lib/qui-vue-vant.js",
   "module": "es/index.js",
