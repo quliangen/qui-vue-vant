@@ -1,5 +1,5 @@
 {
-  "name": "@infra/qui-vant",
+  "name": "@infra/qui-react-antd",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@infra/request": "workspace:^0.0.1"
+  }
 }

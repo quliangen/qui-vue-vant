@@ -1,0 +1,72 @@
+{
+  "name": "@infra/qui-vue-vant",
+  "version": "0.0.1",
+  "description": "Mobile UI Components built on Vue & Vant",
+  "main": "lib/qui-vue-vant.js",
+  "module": "es/index.js",
+  "style": "lib/index.css",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "es"
+  ],
+  "scripts": {
+    "dev": "vant-cli dev",
+    "lint": "vant-cli lint",
+    "test": "vant-cli test",
+    "build": "vant-cli build",
+    "build:site": "vant-cli build-site",
+    "release": "vant-cli release --tag next",
+    "release:site": "sh ./deploy.sh",
+    "test:watch": "vant-cli test --watch",
+    "test:coverage": "open test/coverage/index.html"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quliangen/qui-vue-vant.git"
+  },
+  "author": "qudong",
+  "license": "MIT",
+  "keywords": [
+    "ui",
+    "vue",
+    "vue3",
+    "vant4",
+    "mobile",
+    "frontend",
+    "component",
+    "components"
+  ],
+  "nano-staged": {
+    "*.md": "prettier --write",
+    "*.{ts,tsx,js,vue,less,scss}": "prettier --write",
+    "*.{ts,tsx,js,vue}": "eslint --fix"
+  },
+  "peerDependencies": {
+    "vant": "4.0.11",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vant/cli": "^5.1.0",
+    "sass": "^1.58.3",
+    "unplugin-vue-components": "^0.24.0",
+    "vant": "^4.0.11",
+    "vue": "^3.2.47"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@vant"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "browserslist": [
+    "Chrome >= 51",
+    "iOS >= 10"
+  ]
+}

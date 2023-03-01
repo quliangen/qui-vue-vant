@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "qui-vue-vant:dev": "pnpm --dir ./packages/qui-vue-vant dev", 
+    "qui-vue-vant:build": "pnpm --dir ./packages/qui-vue-vant build", 
+    "qui-vue-vant:build:site": "pnpm --dir ./packages/qui-vue-vant build:site", 
+    "qui-vue-vant:release:site": "pnpm --dir ./packages/qui-vue-vant release:site", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
